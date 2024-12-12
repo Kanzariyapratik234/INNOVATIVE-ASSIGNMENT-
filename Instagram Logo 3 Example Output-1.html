@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Logo</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .instagram-logo {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .inner-circle {
+            width: 70px;
+            height: 70px;
+            border: 5px solid white;
+            border-radius: 50%;
+        }
+
+        .small-circle {
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+        .gradient-text {
+            position: absolute;
+            bottom: -40px;
+            font-size: 24px;
+            font-weight: bold;
+            background: linear-gradient(to right, #e66465, #9198e5, #f9c846, #fc5c7d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="instagram-logo">
+        <div class="inner-circle"></div>
+        <div class="small-circle"></div>
+    </div>
+
+    <p class="gradient-text">Instagram</p>
+
+</body>
+</html>
